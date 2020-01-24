@@ -20,7 +20,7 @@ public class smokeTest {
 		//final LocalDateTime localDateTimeexpected = LocalDateTime.of(2020,01,01,00,02,00);
 		final String localDateTimeExpected = "2020/01/01 00:02:00";
 		final Time time = new Time(localDateTime);
-		assertEquals(localDateTimeExpected, time.getFutureTime(seconds);
+		assertEquals(localDateTimeExpected, time.getFutureTime(seconds));
 	}
 	
 	
